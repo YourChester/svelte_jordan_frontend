@@ -1,0 +1,27 @@
+:root {
+	--header-height: 60px;
+	--header-bg: #f8f8f8;
+	--header-color: black;
+
+	--aside-width: 251px;
+
+	--table-th-bg: #f8f8f8;
+	--table-th-border: #ececec;
+	--table-footer-bg: #f8f8f8;
+
+
+	--icon-color: #e0e0e0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
