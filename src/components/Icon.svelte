@@ -1,8 +1,10 @@
 <script lang="ts">
-	let { name, size = '24px' } = $props();
+	let props: { name: string; size?: string } = $props();
 </script>
 
-<i class="msr" style:font-size={size}>{name}</i>
+<i class="msr" style:font-size={props.size}>
+	{props.name}
+</i>
 
 <style>
 	.msr {

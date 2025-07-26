@@ -1,4 +1,6 @@
 :root {
+	--primary: #b80000;
+
 	--header-height: 60px;
 	--header-bg: #f8f8f8;
 	--header-color: black;
@@ -8,9 +10,14 @@
 	--table-th-bg: #f8f8f8;
 	--table-th-border: #ececec;
 	--table-footer-bg: #f8f8f8;
-
+	--table-page-color: #000;
+	--table-page-curent-color: white;
+	--table-page-curent-bg: var(--primary);
 
 	--icon-color: #e0e0e0;
+
+	--btn-colol: white;
+	--btn-bg: var(--primary)
 }
 
 * {
@@ -24,4 +31,24 @@ body {
 	height: 100vh;
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
+}
+
+.flex {
+	display: flex;
+}
+
+.justify-start {
+	justify-content: flex-start;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.p-y-10 {
+	padding: 10px 0;
+}
+
+.p-x-10 {
+	padding: 0 10px;
 }
